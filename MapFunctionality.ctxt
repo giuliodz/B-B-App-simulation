@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MapFunctionality
+comment0.text=\n\ Write\ a\ description\ of\ class\ MapFunctionality\ here.\n\n\ @author\ Brandon\ Cardillo,\ Giulio\ Di\ Zio\n\ @version\ 17.03.2019\n
+comment1.params=
+comment1.target=MapFunctionality()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MapFunctionality\n
+comment2.params=boroughName\ width\ height
+comment2.target=javafx.scene.web.WebView\ showBoroughMap(java.lang.String,\ int,\ int)
+comment2.text=\n\ load\ the\ webview\ of\ a\ borough\ with\ a\ given\ width\ and\ heigh\n\ \n\ @param\ name,\ width\ and\ height\n\ @return\ WebView\n
+comment3.params=lat\ lon\ width\ height
+comment3.target=javafx.scene.web.WebView\ showPropertyStreetViewStatic(double,\ double,\ int,\ int)
+comment3.text=\n\ load\ the\ webview\ of\ a\ streetView\ that\ is\ static\ (you\ can\ not\ move\ arround,\ so\ basically\ an\ image)\n\ with\ a\ given\ width\ and\ heigh\n\ \n\ @param\ lat,\ lon,\ width\ and\ height\n\ @return\ WebView\n
+comment4.params=lat\ lon\ width\ height
+comment4.target=javafx.scene.web.WebView\ showPropertyStreetView(double,\ double,\ int,\ int)
+comment4.text=\n\ load\ the\ webview\ of\ a\ streetView\ that\ is\ dynamic\ (you\ can\ \ move\ arround,\ but\ glitchy\ due\ to\ bad\ api)\n\ with\ a\ given\ width\ and\ heigh\n\ \n\ @param\ lat,\ lon,\ width\ and\ height\n\ @return\ WebView\n
+comment5.params=lat\ lon\ width\ height
+comment5.target=javafx.scene.web.WebView\ showPropertyMap(double,\ double,\ int,\ int)
+comment5.text=\n\ load\ the\ webview\ of\ a\ map\ with\ a\ marker\ placed\ on\ the\ properties\ location\n\ with\ a\ given\ width\ and\ heigh\n\ \n\ @param\ lat,\ lon,\ width\ and\ height\n\ @return\ WebView\n
+comment6.params=poi\ lat\ lon\ width\ height
+comment6.target=javafx.scene.web.WebView\ showSearchPoi(java.lang.String,\ double,\ double,\ int,\ int)
+comment6.text=\n\ load\ the\ webview\ of\ a\ user\ specied\ point\ of\ interest\n\ with\ a\ given\ width\ and\ heigh\n\ \n\ @param\ poi,\ lat,\ lon,\ width\ and\ height\n\ @return\ WebView\n
+comment7.params=lat\ lon
+comment7.target=java.lang.String\ getAddressString(double,\ double)
+comment7.text=\n\ Uses\ geocoding\ Api\ to\ perform\ reverse\ GeoCoding\ on\ the\ lat\ and\ lon\ of\ a\ property.\n\ @param\ lat,\ lon\n\ @return\ String\ (the\ address\ at\ these\ coordinates)\n
+numComments=8
